@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+<Name>Taller de Proyectos 2</Name>
+<Title>Taller de Proyectos 2</Title>
+<StartDate>2014-08-13T00:00:00</StartDate>
+<FinishDate>2014-12-15T00:00:00</FinishDate>
+<CalendarUID>1</CalendarUID>
+<CurrencyDigits>2</CurrencyDigits>
+<CurrencySymbol>$</CurrencySymbol>
+<CurrencySymbolPosition>0</CurrencySymbolPosition>
+<MinutesPerDay>600</MinutesPerDay>
+<DefaultStartTime>09:00:00</DefaultStartTime>
+<DefaultFinishTime>19:00:00</DefaultFinishTime>
+<DefaultTaskType>0</DefaultTaskType>
+     <DefaultFixedCostAccrual>2</DefaultFixedCostAccrual>
+     <DefaultStandardRate>0</DefaultStandardRate>
+     <DefaultOvertimeRate>0</DefaultOvertimeRate>
+     <DurationFormat>7</DurationFormat>
+     <WorkFormat>2</WorkFormat>
+     <EditableActualCosts>0</EditableActualCosts>
+     <HonorConstraints>0</HonorConstraints>
+     <EarnedValueMethod>0</EarnedValueMethod>
+     <InsertedProjectsLikeSummary>0</InsertedProjectsLikeSummary>
+     <MultipleCriticalPaths>0</MultipleCriticalPaths>
+     <NewTasksEffortDriven>0</NewTasksEffortDriven>
+     <NewTasksEstimated>1</NewTasksEstimated>
+     <SplitsInProgressTasks>1</SplitsInProgressTasks>
+     <SpreadActualCost>0</SpreadActualCost>
+     <SpreadPercentComplete>0</SpreadPercentComplete>
+     <TaskUpdatesResource>1</TaskUpdatesResource>
+     <FiscalYearStart>0</FiscalYearStart>
+     <WeekStartDay>1</WeekStartDay>
+<Calendars>
+<Calendar>
+<UID>1</UID>
+         <Name>Standard</Name>
+         <IsBaseCalendar>1</IsBaseCalendar>
+         <IsBaselineCalendar>0</IsBaselineCalendar>
+         <BaseCalendarUID>-1</BaseCalendarUID>
+<WeekDays>
+<WeekDay>
+<DayType>1</DayType>
+<DayWorking>0</DayWorking>
+</WeekDay>
+<WeekDay>
+<DayType>2</DayType>
+<DayWorking>1</DayWorking>
+<WorkingTimes>
+<WorkingTime>
+<FromTime>09:00:00</FromTime>
+<ToTime>19:00:00</ToTime>
+</WorkingTime>
+</WorkingTimes>
+</WeekDay>
+<WeekDay>
+<DayType>3</DayType>
+<DayWorking>1</DayWorking>
+<WorkingTimes>
+<WorkingTime>
+<FromTime>09:00:00</FromTime>
+<ToTime>19:00:00</ToTime>
+</WorkingTime>
+</WorkingTimes>
+</WeekDay>
+<WeekDay>
+<DayType>4</DayType>
+<DayWorking>1</DayWorking>
+<WorkingTimes>
+<WorkingTime>
+<FromTime>09:00:00</FromTime>
+<ToTime>19:00:00</ToTime>
+</WorkingTime>
+</WorkingTimes>
+</WeekDay>
+<WeekDay>
+<DayType>5</DayType>
+<DayWorking>1</DayWorking>
+<WorkingTimes>
+<WorkingTime>
+<FromTime>09:00:00</FromTime>
+<ToTime>19:00:00</ToTime>
+</WorkingTime>
+</WorkingTimes>
+</WeekDay>
+<WeekDay>
+<DayType>6</DayType>
+<DayWorking>1</DayWorking>
+<WorkingTimes>
+<WorkingTime>
+<FromTime>09:00:00</FromTime>
+<ToTime>19:00:00</ToTime>
+</WorkingTime>
+</WorkingTimes>
+</WeekDay>
+<WeekDay>
+<DayType>7</DayType>
+<DayWorking>0</DayWorking>
+</WeekDay>
+</WeekDays>
+</Calendar>
+</Calendars>
+<MinutesPerWeek>3000</MinutesPerWeek>
+<DaysPerMonth>20</DaysPerMonth>
+<Resources>
+<Resource>
+     <UID>0</UID>
+     <ID>0</ID>
+     <Type>1</Type>
+     <IsNull>0</IsNull>
+     <WorkGroup>0</WorkGroup>
+     <MaxUnits>1,00</MaxUnits>
+     <PeakUnits>0,00</PeakUnits>
+     <OverAllocated>0</OverAllocated>
+     <CanLevel>1</CanLevel>
+     <AccrueAt>3</AccrueAt>
+     <Work>PT0H0M0S</Work>
+     <RegularWork>PT0H0M0S</RegularWork>
+     <OvertimeWork>PT0H0M0S</OvertimeWork>
+     <ActualWork>PT0H0M0S</ActualWork>
+     <RemainingWork>PT0H0M0S</RemainingWork>
+     <ActualOvertimeWork>PT0H0M0S</ActualOvertimeWork>
+     <RemainingOvertimeWork>PT0H0M0S</RemainingOvertimeWork>
+     <PercentWorkComplete>0</PercentWorkComplete>
+     <StandardRate>0</StandardRate>
+     <StandardRateFormat>2</StandardRateFormat>
+     <Cost>0</Cost>
+     <OvertimeRate>0</OvertimeRate>
+     <OvertimeRateFormat>2</OvertimeRateFormat>
+     <OvertimeCost>0</OvertimeCost>
+     <CostPerUse>0</CostPerUse>
+     <ActualCost>0</ActualCost>
+     <ActualOvertimeCost>0</ActualOvertimeCost>
+     <RemainingCost>0</RemainingCost>
+     <RemainingOvertimeCost>0</RemainingOvertimeCost>
+     <WorkVariance>0,00</WorkVariance>
+     <CostVariance>0</CostVariance>
+     <SV>0,00</SV>
+     <CV>0,00</CV>
+     <ACWP>0,00</ACWP>
+     <CalendarUID>1</CalendarUID>
+     <BCWS>0,00</BCWS>
+     <BCWP>0,00</BCWP>
+     <IsGeneric>0</IsGeneric>
+     <IsInactive>0</IsInactive>
+     <IsEnterprise>0</IsEnterprise>
+     <BookingType>0</BookingType>
+     <CreationDate>2011-09-26T09:34:00</CreationDate>
+     <IsCostResource>0</IsCostResource>
+     <IsBudget>0</IsBudget>
+     </Resource>
+</Resources>
+<Tasks>
+<Task>
+<Milestone>0</Milestone>
+<Summary>1</Summary>
+<Start>2014-08-13T09:00:00</Start>
+<Finish>2014-09-29T19:00:00</Finish>
+<ActualStart>2014-08-13T09:00:00</ActualStart>
+<ActualFinish>2014-09-29T19:00:00</ActualFinish>
+<ManualStart>2014-08-13T09:00:00</ManualStart>
+<ManualFinish>2014-09-29T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT310H0M0S</Duration>
+<Work>PT310H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-13T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Taller de Proyecto Informatico II</Name>
+<Notes>(null)</Notes>
+<UID>6</UID>
+<WBS>1</WBS>
+<OutlineNumber>1</OutlineNumber>
+<OutlineLevel>1</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>1</Summary>
+<Start>2014-08-13T09:00:00</Start>
+<Finish>2014-09-03T00:00:00</Finish>
+<ActualStart>2014-08-13T09:00:00</ActualStart>
+<ActualFinish>2014-09-03T00:00:00</ActualFinish>
+<ManualStart>2014-08-13T09:00:00</ManualStart>
+<ManualFinish>2014-09-03T00:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT140H0M0S</Duration>
+<Work>PT140H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-13T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Normas y Metodolog&#237;as de Desarrollo</Name>
+<Notes>(null)</Notes>
+<UID>8</UID>
+<WBS>1.1</WBS>
+<OutlineNumber>1.1</OutlineNumber>
+<OutlineLevel>2</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-08-13T09:00:00</Start>
+<Finish>2014-08-18T19:00:00</Finish>
+<ActualStart>2014-08-13T09:00:00</ActualStart>
+<ActualFinish>2014-08-18T19:00:00</ActualFinish>
+<ManualStart>2014-08-13T09:00:00</ManualStart>
+<ManualFinish>2014-08-18T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT30H0M0S</Duration>
+<Work>PT30H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-13T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Plan de Proyecto</Name>
+<Notes>(null)</Notes>
+<UID>9</UID>
+<WBS>1.1.1</WBS>
+<OutlineNumber>1.1.1</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-08-19T09:00:00</Start>
+<Finish>2014-08-21T19:00:00</Finish>
+<ActualStart>2014-08-19T09:00:00</ActualStart>
+<ActualFinish>2014-08-21T19:00:00</ActualFinish>
+<ManualStart>2014-08-19T09:00:00</ManualStart>
+<ManualFinish>2014-08-21T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT30H0M0S</Duration>
+<Work>PT30H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-19T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Matriz de Riesgo</Name>
+<Notes>(null)</Notes>
+<UID>11</UID>
+<PredecessorLink>
+<PredecessorUID>9</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.2</WBS>
+<OutlineNumber>1.1.2</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-08-19T09:00:00</Start>
+<Finish>2014-08-21T19:00:00</Finish>
+<ActualStart>2014-08-19T09:00:00</ActualStart>
+<ActualFinish>2014-08-21T19:00:00</ActualFinish>
+<ManualStart>2014-08-19T09:00:00</ManualStart>
+<ManualFinish>2014-08-21T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT30H0M0S</Duration>
+<Work>PT30H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-19T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Evaluaci&#243;n de Esfuerzo</Name>
+<Notes>(null)</Notes>
+<UID>13</UID>
+<PredecessorLink>
+<PredecessorUID>9</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.3</WBS>
+<OutlineNumber>1.1.3</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-08-19T09:00:00</Start>
+<Finish>2014-08-25T19:00:00</Finish>
+<ActualStart>2014-08-19T09:00:00</ActualStart>
+<ActualFinish>2014-08-25T19:00:00</ActualFinish>
+<ManualStart>2014-08-19T09:00:00</ManualStart>
+<ManualFinish>2014-08-25T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT50H0M0S</Duration>
+<Work>PT50H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-19T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Normas de Desarrollo</Name>
+<Notes>(null)</Notes>
+<UID>16</UID>
+<PredecessorLink>
+<PredecessorUID>9</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.4</WBS>
+<OutlineNumber>1.1.4</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-08-26T09:00:00</Start>
+<Finish>2014-09-01T19:00:00</Finish>
+<ActualStart>2014-08-26T09:00:00</ActualStart>
+<ActualFinish>2014-09-01T19:00:00</ActualFinish>
+<ManualStart>2014-08-26T09:00:00</ManualStart>
+<ManualFinish>2014-09-01T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT50H0M0S</Duration>
+<Work>PT50H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-08-26T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Evaluaci&#243;n del Desarrollo</Name>
+<Notes>(null)</Notes>
+<UID>19</UID>
+<PredecessorLink>
+<PredecessorUID>16</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.5</WBS>
+<OutlineNumber>1.1.5</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-02T09:00:00</Start>
+<Finish>2014-09-02T19:00:00</Finish>
+<ActualStart>2014-09-02T09:00:00</ActualStart>
+<ActualFinish>2014-09-02T19:00:00</ActualFinish>
+<ManualStart>2014-09-02T09:00:00</ManualStart>
+<ManualFinish>2014-09-02T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT10H0M0S</Duration>
+<Work>PT10H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-02T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Preparar Informe</Name>
+<Notes>(null)</Notes>
+<UID>21</UID>
+<PredecessorLink>
+<PredecessorUID>11</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<PredecessorLink>
+<PredecessorUID>13</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<PredecessorLink>
+<PredecessorUID>19</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.6</WBS>
+<OutlineNumber>1.1.6</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>1</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-03T00:00:00</Start>
+<Finish>2014-09-03T00:00:00</Finish>
+<ActualStart>2014-09-03T00:00:00</ActualStart>
+<ActualFinish>2014-09-03T00:00:00</ActualFinish>
+<ManualStart>2014-09-03T00:00:00</ManualStart>
+<ManualFinish>2014-09-03T00:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT0H0M0S</Duration>
+<Work>PT0H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-03T00:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<Name>Informe y Presentaci&#243;n</Name>
+<Notes>(null)</Notes>
+<UID>26</UID>
+<PredecessorLink>
+<PredecessorUID>21</PredecessorUID>
+<Type>1</Type>
+<CrossProject>0</CrossProject>
+<LinkLag>0</LinkLag>
+<LagFormat>7</LagFormat>
+</PredecessorLink>
+<WBS>1.1.7</WBS>
+<OutlineNumber>1.1.7</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>1</Summary>
+<Start>2014-09-03T09:00:00</Start>
+<Finish>2014-09-29T19:00:00</Finish>
+<ActualStart>2014-09-03T09:00:00</ActualStart>
+<ActualFinish>2014-09-29T19:00:00</ActualFinish>
+<ManualStart>2014-09-03T09:00:00</ManualStart>
+<ManualFinish>2014-09-29T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT170H0M0S</Duration>
+<Work>PT170H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-03T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Analisis y Modelo Conceptual</Name>
+<Notes>(null)</Notes>
+<UID>28</UID>
+<WBS>1.2</WBS>
+<OutlineNumber>1.2</OutlineNumber>
+<OutlineLevel>2</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-03T09:00:00</Start>
+<Finish>2014-09-03T19:00:00</Finish>
+<ActualStart>2014-09-03T09:00:00</ActualStart>
+<ActualFinish>2014-09-03T19:00:00</ActualFinish>
+<ManualStart>2014-09-03T09:00:00</ManualStart>
+<ManualFinish>2014-09-03T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT10H0M0S</Duration>
+<Work>PT10H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-03T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Reuniones</Name>
+<Notes>(null)</Notes>
+<UID>29</UID>
+<WBS>1.2.1</WBS>
+<OutlineNumber>1.2.1</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-04T09:00:00</Start>
+<Finish>2014-09-04T19:00:00</Finish>
+<ActualStart>2014-09-04T09:00:00</ActualStart>
+<ActualFinish>2014-09-04T19:00:00</ActualFinish>
+<ManualStart>2014-09-04T09:00:00</ManualStart>
+<ManualFinish>2014-09-04T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT10H0M0S</Duration>
+<Work>PT10H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-04T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Entrevista</Name>
+<Notes>(null)</Notes>
+<UID>31</UID>
+<WBS>1.2.2</WBS>
+<OutlineNumber>1.2.2</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-04T09:00:00</Start>
+<Finish>2014-09-05T19:00:00</Finish>
+<ActualStart>2014-09-04T09:00:00</ActualStart>
+<ActualFinish>2014-09-05T19:00:00</ActualFinish>
+<ManualStart>2014-09-04T09:00:00</ManualStart>
+<ManualFinish>2014-09-05T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT20H0M0S</Duration>
+<Work>PT20H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-04T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Encuestas</Name>
+<Notes>(null)</Notes>
+<UID>32</UID>
+<WBS>1.2.3</WBS>
+<OutlineNumber>1.2.3</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-08T09:00:00</Start>
+<Finish>2014-09-10T19:00:00</Finish>
+<ActualStart>2014-09-08T09:00:00</ActualStart>
+<ActualFinish>2014-09-10T19:00:00</ActualFinish>
+<ManualStart>2014-09-08T09:00:00</ManualStart>
+<ManualFinish>2014-09-10T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT30H0M0S</Duration>
+<Work>PT30H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-08T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Analisis Emp&#237;rico</Name>
+<Notes>(null)</Notes>
+<UID>33</UID>
+<WBS>1.2.4</WBS>
+<OutlineNumber>1.2.4</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-11T09:00:00</Start>
+<Finish>2014-09-25T19:00:00</Finish>
+<ActualStart>2014-09-11T09:00:00</ActualStart>
+<ActualFinish>2014-09-25T19:00:00</ActualFinish>
+<ManualStart>2014-09-11T09:00:00</ManualStart>
+<ManualFinish>2014-09-25T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT90H0M0S</Duration>
+<Work>PT90H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-11T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Realizar Dise&#241;o UML</Name>
+<Notes>(null)</Notes>
+<UID>34</UID>
+<WBS>1.2.5</WBS>
+<OutlineNumber>1.2.5</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+<Task>
+<Milestone>0</Milestone>
+<Summary>0</Summary>
+<Start>2014-09-26T09:00:00</Start>
+<Finish>2014-09-29T19:00:00</Finish>
+<ActualStart>2014-09-26T09:00:00</ActualStart>
+<ActualFinish>2014-09-29T19:00:00</ActualFinish>
+<ManualStart>2014-09-26T09:00:00</ManualStart>
+<ManualFinish>2014-09-29T19:00:00</ManualFinish>
+<DurationFormat>6</DurationFormat>
+<Duration>PT20H0M0S</Duration>
+<Work>PT20H0M0S</Work>
+<ConstraintType>4</ConstraintType>
+<ConstraintDate>2014-09-26T09:00:00</ConstraintDate>
+<Type>0</Type>
+     <Active>1</Active>
+     <Manual>1</Manual>
+     <ResumeValid>0</ResumeValid>
+     <EffortDriven>0</EffortDriven>
+     <Recurring>0</Recurring>
+     <OverAllocated>0</OverAllocated>
+     <Estimated>0</Estimated>
+     <IsSubproject>0</IsSubproject>
+     <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
+     <ExternalTask>0</ExternalTask>
+     <StartVariance>0</StartVariance>
+     <FinishVariance>0</FinishVariance>
+     <CalendarUID>-1</CalendarUID>
+<FixedCost>2000.000000</FixedCost>
+<PercentComplete>0.000000</PercentComplete>
+<PercentWorkComplete>0.000000</PercentWorkComplete>
+<Name>Matriz de Requerimientos</Name>
+<Notes>(null)</Notes>
+<UID>35</UID>
+<WBS>1.2.6</WBS>
+<OutlineNumber>1.2.6</OutlineNumber>
+<OutlineLevel>3</OutlineLevel>
+
+</Task>
+
+</Tasks>
+<Assignments>
+
+</Assignments>
+</Project>
